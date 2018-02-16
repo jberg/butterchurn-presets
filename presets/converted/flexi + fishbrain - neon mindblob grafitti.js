@@ -198,7 +198,7 @@ m.d1 = (sqrt((((m.x1-m.x)*(m.x1-m.x))+((m.y1-m.y)*(m.y1-m.y))))-(m.b1*2));
 m.si1 = (1-div(1,(1+pow(2, (-m.d1*1000)))));
 m.d2 = (sqrt((((m.x2-m.x)*(m.x2-m.x))+((m.y2-m.y)*(m.y2-m.y))))-(m.b1*2));
 m.si2 = (1-div(1,(1+pow(2, (-m.d2*1000)))));
-m.si3 = (-pow(m.q5, 3)*00);
+m.si3 = (-pow(m.q5, 3)*0);
 m.dx = ((((((m.si1*Math.sin((m.y1-m.y)))*m.m1)*m.d1)-(((m.si2*Math.sin((m.y2-m.y)))*m.m1)*m.d2))+((m.si3*Math.cos(m.dir))*m.t1))*2);
 m.dy = ((((((-m.si1*Math.sin((m.x1-m.x)))*m.m1)*m.d1)+(((m.si2*Math.sin((m.x2-m.x)))*m.m1)*m.d2))-((m.si3*Math.sin(m.dir))*m.t1))*2);
 		return m;
