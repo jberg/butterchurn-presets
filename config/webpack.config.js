@@ -23,7 +23,8 @@ let config = {
     path: outputPath,
     filename: outputFile + '.js',
     library: 'butterchurnPresets',
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
   module: {
     rules: [

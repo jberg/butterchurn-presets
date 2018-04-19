@@ -140,6 +140,11 @@ presets["Zylot - Star Ornament"] = require("../presets/converted/Zylot - Star Or
 // presets["Geiss - Cosmic Dust 2 - quasistatic noise (Grow Mix)"] = require("../presets/converted/Geiss - Cosmic Dust 2 - quasistatic noise (Grow Mix)");
 /* eslint-enable max-len */
 
-export function getPresets () {
-  return presets;
+export default class ButterchurnPresets {
+  static getPresets () {
+    return presets;
+  }
 }
+
+module.exports = ButterchurnPresets;
+
