@@ -1,5 +1,5 @@
 {
-  "name": "butterchurnPresets",
+  "name": "butterchurn-presets",
   "version": "0.0.1",
   "description": "Butterchurn preset packs",
   "main": "lib/butterchurnPresets.min.js",
