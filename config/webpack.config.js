@@ -10,19 +10,22 @@ const nodeRoot = path.join(__dirname, '..', 'node_modules');
 const outputPath = path.join(__dirname, '..', 'lib');
 
 let plugins = [];
-let outputFile = 'butterchurnPresets';
+let outputFile = '[name]';
 
 if (env === 'prod') {
   outputFile += '.min';
 }
 
 let config = {
-  entry: srcRoot + '/index.js',
+  entry: {
+    butterchurnPresets: srcRoot + '/index.js',
+    butterchurnPresetsExtra: srcRoot + '/extra.js',
+  },
   devtool: 'source-map',
   output: {
     path: outputPath,
     filename: outputFile + '.js',
-    library: 'butterchurnPresets',
+    library: '[name]',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
