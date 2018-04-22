@@ -1,17 +1,20 @@
 {
   "name": "butterchurnPresets",
   "version": "0.0.1",
-  "private": true,
   "description": "Butterchurn preset packs",
   "main": "lib/butterchurnPresets.min.js",
-  "engines": {
-    "node": "^8.4.0",
-    "yarn": "^1.0.1"
-  },
+  "unpkg": "lib/butterchurnPresets.min.js",
+  "files": [
+    "lib/butterchurnPresets.min.js",
+    "lib/butterchurnPresetsExtra.min.js"
+  ],
   "scripts": {
     "build": "webpack  --config config/webpack.config.js --env prod",
     "dev": "webpack  --config config/webpack.config.js --progress --colors --watch --env dev"
   },
+  "author": "Jordan Berg <jordannealberg@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://butterchurnviz.com",
   "dependencies": {
     "babel-runtime": "^6.26.0",
     "ecma-proposal-math-extensions": "0.0.2",
