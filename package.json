@@ -1,12 +1,13 @@
 {
   "name": "butterchurn-presets",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Butterchurn preset packs",
   "main": "lib/butterchurnPresets.min.js",
   "unpkg": "lib/butterchurnPresets.min.js",
   "files": [
     "lib/butterchurnPresets.min.js",
-    "lib/butterchurnPresetsExtra.min.js"
+    "lib/butterchurnPresetsExtra.min.js",
+    "presets/converted/"
   ],
   "scripts": {
     "build": "webpack  --config config/webpack.config.js --env prod",
