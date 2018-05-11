@@ -1,5 +1,10 @@
 /* eslint-disable max-len */
 let presets = {};
+presets["$$$ Royal - Mashup (160)"] = require("../presets/converted/$$$ Royal - Mashup (160).json");
+presets["$$$ Royal - Mashup (169)"] = require("../presets/converted/$$$ Royal - Mashup (169).json");
+presets["$$$ Royal - Mashup (253)"] = require("../presets/converted/$$$ Royal - Mashup (253).json");
+presets["$$$ Royal - Mashup (337)"] = require("../presets/converted/$$$ Royal - Mashup (337).json");
+presets["$$$ Royal - Mashup (383)"] = require("../presets/converted/$$$ Royal - Mashup (383).json");
 presets["11"] = require("../presets/converted/11.json");
 presets["158"] = require("../presets/converted/158.json");
 presets["444"] = require("../presets/converted/444.json");
@@ -139,7 +144,9 @@ presets["Telek - Sine Wave"] = require("../presets/converted/Telek - Sine Wave.j
 presets["Unchained - All You Can Eat"] = require("../presets/converted/Unchained - All You Can Eat.json");
 presets["Unchained - Fuzzy Sciences"] = require("../presets/converted/Unchained - Fuzzy Sciences.json");
 presets["various artists - 1200774354134 - mash0000 - what the writer′s guild is doing with the extra money"] = require("../presets/converted/various artists - 1200774354134 - mash0000 - what the writer′s guild is doing with the extra money.json");
+presets["Zylot - Crossing Over (Paint Spatter mix)"] = require("../presets/converted/Zylot - Crossing Over (Paint Spatter mix).json");
 presets["Zylot - In death there is life (Geiss Layered Mix) (Jelly)"] = require("../presets/converted/Zylot - In death there is life (Geiss Layered Mix) (Jelly).json");
+presets["Zylot - True Visionary"] = require("../presets/converted/Zylot - True Visionary.json");
 /* eslint-enable max-len */
 
 export default class ButterchurnPresetsExtra2 {

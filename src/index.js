@@ -1,5 +1,7 @@
 /* eslint-disable max-len */
 let presets = {};
+presets["$$$ Royal - Mashup (197)"] = require("../presets/converted/$$$ Royal - Mashup (197).json");
+presets["$$$ Royal - Mashup (431)"] = require("../presets/converted/$$$ Royal - Mashup (431).json");
 presets["_Aderrasi - Wanderer in Curved Space - mash0000 - faclempt kibitzing meshuggana schmaltz (Geiss color mix)"] = require("../presets/converted/_Aderrasi - Wanderer in Curved Space - mash0000 - faclempt kibitzing meshuggana schmaltz (Geiss color mix).json");
 presets["_Geiss - Artifact 01"] = require("../presets/converted/_Geiss - Artifact 01.json");
 presets["_Geiss - Desert Rose 2"] = require("../presets/converted/_Geiss - Desert Rose 2.json");
@@ -33,6 +35,7 @@ presets["flexi - patternton, district of media, capitol of the united abstractio
 presets["Flexi - predator-prey-spirals"] = require("../presets/converted/Flexi - predator-prey-spirals.json");
 presets["Flexi - smashing fractals [acid etching mix]"] = require("../presets/converted/Flexi - smashing fractals [acid etching mix].json");
 presets["flexi - swing out on the spiral"] = require("../presets/converted/flexi - swing out on the spiral.json");
+presets["Flexi - truly soft piece of software - this is generic texturing (Jelly) "] = require("../presets/converted/Flexi - truly soft piece of software - this is generic texturing (Jelly) .json");
 presets["flexi - what is the matrix"] = require("../presets/converted/flexi - what is the matrix.json");
 presets["Flexi, fishbrain, Geiss + Martin - tokamak witchery"] = require("../presets/converted/Flexi, fishbrain, Geiss + Martin - tokamak witchery.json");
 presets["Flexi, martin + geiss - dedicated to the sherwin maxawow"] = require("../presets/converted/Flexi, martin + geiss - dedicated to the sherwin maxawow.json");
@@ -43,12 +46,16 @@ presets["Geiss - Thumb Drum"] = require("../presets/converted/Geiss - Thumb Drum
 presets["Geiss, Flexi + Stahlregen - Thumbdrum Tokamak [crossfiring aftermath jelly mashup]"] = require("../presets/converted/Geiss, Flexi + Stahlregen - Thumbdrum Tokamak [crossfiring aftermath jelly mashup].json");
 presets["Krash + Illusion - Spiral Movement"] = require("../presets/converted/Krash + Illusion - Spiral Movement.json");
 presets["martin - angel flight"] = require("../presets/converted/martin - angel flight.json");
+presets["martin - another kind of groove"] = require("../presets/converted/martin - another kind of groove.json");
 presets["Martin - charisma"] = require("../presets/converted/Martin - charisma.json");
 presets["martin - disco mix 4"] = require("../presets/converted/martin - disco mix 4.json");
-presets["Martin - disco mix 6"] = require("../presets/converted/Martin - disco mix 6.json");
 presets["martin - extreme heat"] = require("../presets/converted/martin - extreme heat.json");
+presets["martin - ghost city"] = require("../presets/converted/martin - ghost city.json");
+presets["martin - glass corridor"] = require("../presets/converted/martin - glass corridor.json");
 presets["Martin - liquid arrows"] = require("../presets/converted/Martin - liquid arrows.json");
+presets["martin - mucus cervix"] = require("../presets/converted/martin - mucus cervix.json");
 presets["martin - reflections on black tiles"] = require("../presets/converted/martin - reflections on black tiles.json");
+presets["martin - stormy sea (2010 update)"] = require("../presets/converted/martin - stormy sea (2010 update).json");
 presets["martin - The Bridge of Khazad-Dum"] = require("../presets/converted/martin - The Bridge of Khazad-Dum.json");
 presets["martin [shadow harlequins shape code] - fata morgana"] = require("../presets/converted/martin [shadow harlequins shape code] - fata morgana.json");
 presets["Milk Artist At our Best - FED - SlowFast Ft AdamFX n Martin - HD CosmoFX"] = require("../presets/converted/Milk Artist At our Best - FED - SlowFast Ft AdamFX n Martin - HD CosmoFX.json");
@@ -63,11 +70,14 @@ presets["suksma - heretical crosscut playpen"] = require("../presets/converted/s
 presets["suksma - Rovastar - Sunflower Passion (Enlightment Mix)_Phat_edit + flexi und martin shaders - circumflex in character classes in regular expression"] = require("../presets/converted/suksma - Rovastar - Sunflower Passion (Enlightment Mix)_Phat_edit + flexi und martin shaders - circumflex in character classes in regular expression.json");
 presets["suksma - uninitialized variabowl (hydroponic chronic)"] = require("../presets/converted/suksma - uninitialized variabowl (hydroponic chronic).json");
 presets["suksma - vector exp 1 - couldn′t not"] = require("../presets/converted/suksma - vector exp 1 - couldn′t not.json");
+presets["TonyMilkdrop - Leonardo Da Vinci's Balloon [Flexi - merry-go-round + techstyle]"] = require("../presets/converted/TonyMilkdrop - Leonardo Da Vinci's Balloon [Flexi - merry-go-round + techstyle].json");
 presets["Unchained & Rovastar - Wormhole Pillars (Hall of Shadows mix)"] = require("../presets/converted/Unchained & Rovastar - Wormhole Pillars (Hall of Shadows mix).json");
 presets["Unchained - Rewop"] = require("../presets/converted/Unchained - Rewop.json");
 presets["Unchained - Unified Drag 2"] = require("../presets/converted/Unchained - Unified Drag 2.json");
 presets["yin - 191 - Temporal singularities"] = require("../presets/converted/yin - 191 - Temporal singularities.json");
+presets["Zylot - Paint Spill (Music Reactive Paint Mix)"] = require("../presets/converted/Zylot - Paint Spill (Music Reactive Paint Mix).json");
 presets["Zylot - Star Ornament"] = require("../presets/converted/Zylot - Star Ornament.json");
+presets["Zylot - True Visionary (Final Mix)"] = require("../presets/converted/Zylot - True Visionary (Final Mix).json");
 /* eslint-enable max-len */
 
 export default class ButterchurnPresets {
