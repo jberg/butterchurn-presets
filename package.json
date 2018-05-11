@@ -1,6 +1,6 @@
 {
   "name": "butterchurn-presets",
-  "version": "2.3.0",
+  "version": "2.3.2",
   "description": "Butterchurn preset packs",
   "main": "lib/butterchurnPresets.min.js",
   "unpkg": "lib/butterchurnPresets.min.js",
