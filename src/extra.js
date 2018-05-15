@@ -35,6 +35,7 @@ presets["cope, martin + flexi - the slickery of alternative varnish"] = require(
 presets["DemonLD_-_Toxic_water_diffusion threx angela vs debi brown (nice)"] = require("../presets/converted/DemonLD_-_Toxic_water_diffusion threx angela vs debi brown (nice).json");
 presets["Eo.S. + flexi - glowsticks v2 05 and proton lights (+Krash′s beat code) _Phat_remix02b + illumination (Stahl′s Mix)"] = require("../presets/converted/Eo.S. + flexi - glowsticks v2 05 and proton lights (+Krash′s beat code) _Phat_remix02b + illumination (Stahl′s Mix).json");
 presets["Eo.S. - glowsticks v2 03 music"] = require("../presets/converted/Eo.S. - glowsticks v2 03 music.json");
+presets["Eo.S. - glowsticks v2 05 and proton lights (+Krash′s beat code) _Phat_remix03 madhatter_v2"] = require("../presets/converted/Eo.S. - glowsticks v2 05 and proton lights (+Krash′s beat code) _Phat_remix03 madhatter_v2.json");
 presets["EVET + Flexi - Rainbox Splash Poolz"] = require("../presets/converted/EVET + Flexi - Rainbox Splash Poolz.json");
 presets["EVET - RGB Singularity"] = require("../presets/converted/EVET - RGB Singularity.json");
 presets["fishbrain + flexi - stitchcraft"] = require("../presets/converted/fishbrain + flexi - stitchcraft.json");
