@@ -108,6 +108,7 @@ presets["martin - dark galaxy"] = require("../presets/converted/martin - dark ga
 presets["martin - shifter - armorial bearings of robotopia"] = require("../presets/converted/martin - shifter - armorial bearings of robotopia.json");
 presets["martin - skywards"] = require("../presets/converted/martin - skywards.json");
 presets["martin - soma in pink"] = require("../presets/converted/martin - soma in pink.json");
+presets["martin - sparky caleidoscope"] = require("../presets/converted/martin - sparky caleidoscope.json");
 presets["martin - starfield sectors"] = require("../presets/converted/martin - starfield sectors.json");
 presets["martin - sunset over the river"] = require("../presets/converted/martin - sunset over the river.json");
 presets["martin - the forge of Isengard"] = require("../presets/converted/martin - the forge of Isengard.json");
