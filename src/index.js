@@ -70,7 +70,6 @@ presets["Rovastar + Loadus + Geiss - FractalDrop (Triple Mix)"] = require("../pr
 presets["Rovastar - Oozing Resistance"] = require("../presets/converted/Rovastar - Oozing Resistance.json");
 presets["sawtooth grin roam"] = require("../presets/converted/sawtooth grin roam.json");
 presets["shifter - dark tides bdrv mix 2"] = require("../presets/converted/shifter - dark tides bdrv mix 2.json");
-presets["shifter - feathers (angel wings)"] = require("../presets/converted/shifter - feathers (angel wings).json");
 presets["suksma - heretical crosscut playpen"] = require("../presets/converted/suksma - heretical crosscut playpen.json");
 presets["suksma - Rovastar - Sunflower Passion (Enlightment Mix)_Phat_edit + flexi und martin shaders - circumflex in character classes in regular expression"] = require("../presets/converted/suksma - Rovastar - Sunflower Passion (Enlightment Mix)_Phat_edit + flexi und martin shaders - circumflex in character classes in regular expression.json");
 presets["suksma - uninitialized variabowl (hydroponic chronic)"] = require("../presets/converted/suksma - uninitialized variabowl (hydroponic chronic).json");
