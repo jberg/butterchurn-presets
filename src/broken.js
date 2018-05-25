@@ -9,6 +9,7 @@ presets["cope - matrixcode7"] = require("../presets/converted/cope - matrixcode7
 presets["flexi - can′t think of mosaic cages"] = require("../presets/converted/flexi - can′t think of mosaic cages.json");
 presets["Geiss - Drop Shadow 1"] = require("../presets/converted/Geiss - Drop Shadow 1.json");
 presets["Geiss - Drop Shadow 2"] = require("../presets/converted/Geiss - Drop Shadow 2.json");
+presets["Geiss - Flotsam - mash0000 - unfathomably advanced yet psychotic aliens churn my mental insides"] = require("../presets/converted/Geiss - Flotsam - mash0000 - unfathomably advanced yet psychotic aliens churn my mental insides.json");
 presets["lit claw (explorers grid) - i don′t have either a belfry or bats bitch"] = require("../presets/converted/lit claw (explorers grid) - i don′t have either a belfry or bats bitch.json");
 presets["martin + stahlregen - martin in da mash 16"] = require("../presets/converted/martin + stahlregen - martin in da mash 16.json");
 presets["martin - adrift on a dead planet - lard mix"] = require("../presets/converted/martin - adrift on a dead planet - lard mix.json");
