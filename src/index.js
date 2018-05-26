@@ -77,7 +77,6 @@ presets["martin - infinity (2010 update)"] = require("../presets/converted/marti
 presets["Martin - liquid arrows"] = require("../presets/converted/Martin - liquid arrows.json");
 presets["martin - mandelbox explorer - high speed demo version"] = require("../presets/converted/martin - mandelbox explorer - high speed demo version.json");
 presets["martin - mucus cervix"] = require("../presets/converted/martin - mucus cervix.json");
-presets["Martin - QBikal - Surface Turbulence II"] = require("../presets/converted/Martin - QBikal - Surface Turbulence II.json");
 presets["Martin - QBikal - Surface Turbulence IIb"] = require("../presets/converted/Martin - QBikal - Surface Turbulence IIb.json");
 presets["martin - reflections on black tiles"] = require("../presets/converted/martin - reflections on black tiles.json");
 presets["martin - stormy sea (2010 update)"] = require("../presets/converted/martin - stormy sea (2010 update).json");
