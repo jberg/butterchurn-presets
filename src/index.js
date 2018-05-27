@@ -64,7 +64,6 @@ presets["martin - another kind of groove"] = require("../presets/converted/marti
 presets["martin - bombyx mori"] = require("../presets/converted/martin - bombyx mori.json");
 presets["martin - bombyx mori"] = require("../presets/converted/martin - bombyx mori.json");
 presets["martin - castle in the air"] = require("../presets/converted/martin - castle in the air.json");
-presets["martin - chain breaker xxx"] = require("../presets/converted/martin - chain breaker xxx.json");
 presets["martin - chain breaker"] = require("../presets/converted/martin - chain breaker.json");
 presets["Martin - charisma"] = require("../presets/converted/Martin - charisma.json");
 presets["martin - disco mix 4"] = require("../presets/converted/martin - disco mix 4.json");
