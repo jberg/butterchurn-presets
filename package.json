@@ -9,6 +9,7 @@
     "lib/butterchurnPresetsExtra.min.js",
     "lib/butterchurnPresetsExtra2.min.js",
     "lib/butterchurnPresetsMD1.min.js",
+    "lib/butterchurnPresetsMinimal.min.js",
     "presets/converted/"
   ],
   "scripts": {
