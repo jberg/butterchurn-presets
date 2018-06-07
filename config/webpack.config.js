@@ -23,6 +23,7 @@ let config = {
     butterchurnPresetsExtra2: srcRoot + '/extra2.js',
     butterchurnPresetsMD1: srcRoot + '/md1.js',
     butterchurnPresetsMinimal: srcRoot + '/minimal.js',
+    butterchurnPresetPackMeta: srcRoot + '/presetPackMeta.js',
   },
   devtool: 'source-map',
   output: {
