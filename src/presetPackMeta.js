@@ -596,14 +596,21 @@ export default class ButterchurnPresetPackMeta {
   static getMinimalPresetKeys () {
     return {
       presets: minimalPresets,
-      chunk: 'butterchurn-presets/lib/butterchurnPresetsMD1.min',
+      chunk: 'butterchurn-presets/lib/butterchurnPresetsMinimal.min',
+    };
+  }
+
+  static getNonMinimalPresetKeys () {
+    return {
+      presets: nonMinimalPresets,
+      chunk: 'butterchurn-presets/lib/butterchurnPresetsNonMinimal.min',
     };
   }
 
   static getMD1PresetKeys () {
     return {
       presets: MD1Presets,
-      chunk: 'butterchurn-presets/lib/butterchurnPresetsMinimal.min',
+      chunk: 'butterchurn-presets/lib/butterchurnPresetsMD1.min',
     };
   }
 }
