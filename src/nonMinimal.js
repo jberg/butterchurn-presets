@@ -78,5 +78,3 @@ export default class ButterchurnPresetsNonMinimal {
     return presets;
   }
 }
-
-module.exports = ButterchurnPresetsNonMinimal;

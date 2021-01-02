@@ -36,5 +36,3 @@ export default class ButterchurnPresetsMinimal {
     return presets;
   }
 }
-
-module.exports = ButterchurnPresetsMinimal;
