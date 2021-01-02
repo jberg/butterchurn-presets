@@ -30,5 +30,3 @@ export default class ButterchurnPresetsBroken {
     return presets;
   }
 }
-
-module.exports = ButterchurnPresetsBroken;

@@ -94,5 +94,3 @@ export default class ButterchurnPresetsMD1 {
     return presets;
   }
 }
-
-module.exports = ButterchurnPresetsMD1;

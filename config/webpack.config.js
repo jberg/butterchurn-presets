@@ -42,8 +42,8 @@ let config = {
         use: {
           loader: 'babel-loader?cacheDirectory',
           options: {
-            plugins: ['transform-runtime'],
-            presets: ['env']
+            plugins: ['@babel/plugin-transform-runtime'],
+            presets: ['@babel/preset-env']
           }
         }
       },

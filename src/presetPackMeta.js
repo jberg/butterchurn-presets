@@ -614,5 +614,3 @@ export default class ButterchurnPresetPackMeta {
     };
   }
 }
-
-module.exports = ButterchurnPresetPackMeta;
