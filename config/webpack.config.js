@@ -1,22 +1,11 @@
 /*global __dirname, require, module*/
-
-const webpack = require('webpack');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const path = require('path');
-const env  = require('yargs').argv.env;
 
 const srcRoot = path.join(__dirname, '..', 'src');
 const nodeRoot = path.join(__dirname, '..', 'node_modules');
 const outputPath = path.join(__dirname, '..', 'lib');
 
-let plugins = [];
-let outputFile = '[name]';
-
-if (env === 'prod') {
-  outputFile += '.min';
-}
-
-let config = {
+const config = {
   entry: {
     butterchurnPresets: srcRoot + '/index.js',
     butterchurnPresetsExtra: srcRoot + '/extra.js',
@@ -26,10 +15,9 @@ let config = {
     butterchurnPresetsNonMinimal: srcRoot + '/nonMinimal.js',
     butterchurnPresetPackMeta: srcRoot + '/presetPackMeta.js',
   },
-  devtool: 'source-map',
   output: {
     path: outputPath,
-    filename: outputFile + '.js',
+    filename: '[name]',
     library: '[name]',
     libraryTarget: 'umd',
     umdNamedDefine: true
@@ -52,24 +40,19 @@ let config = {
   resolve: {
     modules: [srcRoot, nodeRoot],
     extensions: ['.js']
-  },
-  plugins: []
+  }
 };
 
+module.exports = (env, argv) => {
+  if (argv.mode === 'development') {
+    config.devtool = 'source-map';
+  }
 
-if (env === 'prod') {
-  config.plugins.push(
-    new webpack.NoEmitOnErrorsPlugin(),
-    new webpack.DefinePlugin({
-      'process.env': {
-        'NODE_ENV': JSON.stringify('production')
-      }
-    }),
-    new webpack.optimize.OccurrenceOrderPlugin(),
-    new webpack.optimize.ModuleConcatenationPlugin(),
+  if (argv.mode === 'production') {
+    config.output.filename += '.min';
+  }
 
-    new UglifyJsPlugin({ parallel: true })
-  );
-}
+  config.output.filename += '.js';
 
-module.exports = config;
+  return config;
+};
