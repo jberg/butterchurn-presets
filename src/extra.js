@@ -1,5 +1,5 @@
 /* eslint-disable max-len */
-let presets = {};
+const presets = {};
 presets["$$$ Royal - Mashup (177)"] = require("../presets/converted/$$$ Royal - Mashup (177).json");
 presets["$$$ Royal - Mashup (273)"] = require("../presets/converted/$$$ Royal - Mashup (273).json");
 presets["$$$ Royal - Mashup (307)"] = require("../presets/converted/$$$ Royal - Mashup (307).json");
@@ -148,8 +148,4 @@ presets["yin - 315 - Ocean of Light (yo im peakin yo Eo.S.-Phat)"] = require("..
 presets["Zylot - In death there is life (Geiss Layered Mix)"] = require("../presets/converted/Zylot - In death there is life (Geiss Layered Mix).json");
 /* eslint-enable max-len */
 
-export default class ButterchurnPresetsExtra {
-  static getPresets () {
-    return presets;
-  }
-}
+export default presets;

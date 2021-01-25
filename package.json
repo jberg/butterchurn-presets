@@ -2,18 +2,20 @@
   "name": "butterchurn-presets",
   "version": "3.0.0-beta.0",
   "description": "Butterchurn preset packs",
-  "main": "lib/butterchurnPresets.min.js",
-  "unpkg": "lib/butterchurnPresets.min.js",
+  "main": "lib/butterchurnPresetsBase.min.js",
+  "unpkg": "lib/butterchurnPresetsBase.min.js",
   "files": [
-    "lib/butterchurnPresets.min.js",
+    "lib/butterchurnPresetsBase.min.js",
     "lib/butterchurnPresetsExtra.min.js",
-    "lib/butterchurnPresetsExtra2.min.js",
+    "lib/butterchurnPresetsImage.min.js",
     "lib/butterchurnPresetsMD1.min.js",
     "lib/butterchurnPresetsMinimal.min.js",
     "lib/butterchurnPresetsNonMinimal.min.js",
     "lib/butterchurnPresetPackMeta.min.js",
-    "presets/converted/"
+    "presets/converted/",
+    "src/"
   ],
+  "sideEffects": false,
   "scripts": {
     "build": "webpack  --config config/webpack.config.js --mode production",
     "dev": "webpack  --config config/webpack.config.js --progress --color --watch --mode development"

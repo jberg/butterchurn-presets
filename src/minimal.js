@@ -1,5 +1,5 @@
 /* eslint-disable max-len */
-let presets = {};
+const presets = {};
 presets["$$$ Royal - Mashup (197)"] = require("../presets/converted/$$$ Royal - Mashup (197).json");
 presets["$$$ Royal - Mashup (431)"] = require("../presets/converted/$$$ Royal - Mashup (431).json");
 presets["_Mig_085"] = require("../presets/converted/_Mig_085.json");
@@ -31,8 +31,4 @@ presets["yin - 191 - Temporal singularities"] = require("../presets/converted/yi
 presets["Zylot - Paint Spill (Music Reactive Paint Mix)"] = require("../presets/converted/Zylot - Paint Spill (Music Reactive Paint Mix).json");
 /* eslint-enable max-len */
 
-export default class ButterchurnPresetsMinimal {
-  static getPresets () {
-    return presets;
-  }
-}
+export default presets;

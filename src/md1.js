@@ -1,5 +1,5 @@
 /* eslint-disable max-len */
-let presets = {};
+const presets = {};
 presets["Aderrasi - Agitator"] = require("../presets/converted/Aderrasi - Agitator.json");
 presets["Aderrasi - Airhandler (Last Breath - Calm)"] = require("../presets/converted/Aderrasi - Airhandler (Last Breath - Calm).json");
 presets["Aderrasi - Contortion (Escher′s Tunnel Mix)"] = require("../presets/converted/Aderrasi - Contortion (Escher′s Tunnel Mix).json");
@@ -89,8 +89,4 @@ presets["yin - 250 - Artificial poles of the continuum_Phat′s_Orbit_mix"] = re
 presets["Zylot - Star Ornament"] = require("../presets/converted/Zylot - Star Ornament.json");
 /* eslint-enable max-len */
 
-export default class ButterchurnPresetsMD1 {
-  static getPresets () {
-    return presets;
-  }
-}
+export default presets;
