@@ -7,9 +7,9 @@ const outputPath = path.join(__dirname, '..', 'lib');
 
 const config = {
   entry: {
-    butterchurnPresets: srcRoot + '/index.js',
+    butterchurnPresetsBase: srcRoot + '/base.js',
     butterchurnPresetsExtra: srcRoot + '/extra.js',
-    butterchurnPresetsExtra2: srcRoot + '/extra2.js',
+    butterchurnPresetsImage: srcRoot + '/image.js',
     butterchurnPresetsMD1: srcRoot + '/md1.js',
     butterchurnPresetsMinimal: srcRoot + '/minimal.js',
     butterchurnPresetsNonMinimal: srcRoot + '/nonMinimal.js',

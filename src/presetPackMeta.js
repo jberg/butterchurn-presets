@@ -1,4 +1,4 @@
-const mainPresets = [
+const basePresets = [
   "$$$ Royal - Mashup (197)",
   "$$$ Royal - Mashup (220)",
   "$$$ Royal - Mashup (431)",
@@ -250,7 +250,7 @@ const extraPresets = [
   "Zylot - In death there is life (Geiss Layered Mix)",
 ];
 
-const extra2Presets = [
+const imagePresets = [
   "$$$ Royal - Mashup (160)",
   "$$$ Royal - Mashup (253)",
   "$$$ Royal - Mashup (337)",
@@ -572,10 +572,10 @@ const MD1Presets = [
 ];
 
 export default class ButterchurnPresetPackMeta {
-  static getMainPresetMeta () {
+  static getBasePresetKeys () {
     return {
-      presets: mainPresets,
-      chunk: 'butterchurn-presets',
+      presets: basePresets,
+      chunk: 'butterchurn-presets/lib/butterchurnPresetsBase.min',
     };
   }
 
@@ -586,10 +586,10 @@ export default class ButterchurnPresetPackMeta {
     };
   }
 
-  static getExtra2PresetKeys () {
+  static getImagePresetKeys () {
     return {
-      presets: extra2Presets,
-      chunk: 'butterchurn-presets/lib/butterchurnPresetsExtra2.min',
+      presets: imagePresets,
+      chunk: 'butterchurn-presets/lib/butterchurnPresetsImage.min',
     };
   }
 

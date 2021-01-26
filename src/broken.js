@@ -1,5 +1,5 @@
 /* eslint-disable max-len */
-let presets = {};
+const presets = {};
 presets["Adam Fx 2 Zylot - Age of Science Fierceness 16 - mash0000 - gerber full heaving baby"] = require("../presets/converted/Adam Fx 2 Zylot - Age of Science Fierceness 16 - mash0000 - gerber full heaving baby.json");
 presets["Adam Fx 2 Zylot - Age of Science Fierceness BEAST2 - mash0000 - ethics is for weiner dogs"] = require("../presets/converted/Adam Fx 2 Zylot - Age of Science Fierceness BEAST2 - mash0000 - ethics is for weiner dogs.json");
 presets["Adam Fx 2 Zylot - Age of Science Fierceness Starburst 5 - mash0000"] = require("../presets/converted/Adam Fx 2 Zylot - Age of Science Fierceness Starburst 5 - mash0000.json");
@@ -25,8 +25,4 @@ presets["Zylot - Age of Science (seeking truth mix)"] = require("../presets/conv
 presets["Zylot - Heaven Bloom nz+"] = require("../presets/converted/Zylot - Heaven Bloom nz+.json");
 /* eslint-enable max-len */
 
-export default class ButterchurnPresetsBroken {
-  static getPresets () {
-    return presets;
-  }
-}
+export default presets;
