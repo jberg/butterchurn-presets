@@ -1,19 +1,20 @@
 /*global __dirname, require, module*/
 const path = require('path');
 
-const srcRoot = path.join(__dirname, '..', 'src');
+const root = path.join(__dirname, '..');
 const nodeRoot = path.join(__dirname, '..', 'node_modules');
 const outputPath = path.join(__dirname, '..', 'lib');
 
 const config = {
   entry: {
-    butterchurnPresetsBase: srcRoot + '/base.js',
-    butterchurnPresetsExtra: srcRoot + '/extra.js',
-    butterchurnPresetsImage: srcRoot + '/image.js',
-    butterchurnPresetsMD1: srcRoot + '/md1.js',
-    butterchurnPresetsMinimal: srcRoot + '/minimal.js',
-    butterchurnPresetsNonMinimal: srcRoot + '/nonMinimal.js',
-    butterchurnPresetPackMeta: srcRoot + '/presetPackMeta.js',
+    butterchurnPresetsBase: root + '/base.js',
+    butterchurnPresetsExtra: root + '/extra.js',
+    butterchurnPresetsImage: root + '/image.js',
+    butterchurnPresetsMD1: root + '/md1.js',
+    butterchurnPresetsMinimal: root + '/minimal.js',
+    butterchurnPresetsNonMinimal: root + '/nonMinimal.js',
+    butterchurnPresetsAll: root + '/all.js',
+    butterchurnPresetPackMeta: root + '/presetPackMeta.js',
   },
   output: {
     path: outputPath,
@@ -38,7 +39,7 @@ const config = {
     ]
   },
   resolve: {
-    modules: [srcRoot, nodeRoot],
+    modules: [root, nodeRoot],
     extensions: ['.js']
   }
 };

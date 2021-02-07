@@ -5,6 +5,15 @@
   "main": "lib/butterchurnPresetsBase.min.js",
   "unpkg": "lib/butterchurnPresetsBase.min.js",
   "files": [
+    "base.js",
+    "extra.js",
+    "image.js",
+    "md1.js",
+    "minimal.js",
+    "nonMinimal.js",
+    "all.js",
+    "presetPackMeta.js",
+    "presets/converted/",
     "lib/butterchurnPresetsBase.min.js",
     "lib/butterchurnPresetsExtra.min.js",
     "lib/butterchurnPresetsImage.min.js",
@@ -12,8 +21,7 @@
     "lib/butterchurnPresetsMinimal.min.js",
     "lib/butterchurnPresetsNonMinimal.min.js",
     "lib/butterchurnPresetPackMeta.min.js",
-    "presets/converted/",
-    "src/"
+    "presets/converted/"
   ],
   "sideEffects": false,
   "scripts": {
