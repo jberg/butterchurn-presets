@@ -18,7 +18,8 @@
   "sideEffects": false,
   "scripts": {
     "build": "webpack  --config config/webpack.config.js --mode production",
-    "dev": "webpack  --config config/webpack.config.js --progress --color --watch --mode development"
+    "dev": "webpack  --config config/webpack.config.js --progress --color --watch --mode development",
+    "remove-unused-fields": "node util/removeUnusedPresetFields.js"
   },
   "author": "Jordan Berg <jordannealberg@gmail.com>",
   "license": "MIT",
