@@ -575,42 +575,42 @@ export default class ButterchurnPresetPackMeta {
   static getBasePresetKeys () {
     return {
       presets: basePresets,
-      chunk: 'butterchurn-presets/lib/butterchurnPresetsBase.min',
+      chunk: 'butterchurn-presets/dist/butterchurnPresetsBase.min',
     };
   }
 
   static getExtraPresetKeys () {
     return {
       presets: extraPresets,
-      chunk: 'butterchurn-presets/lib/butterchurnPresetsExtra.min',
+      chunk: 'butterchurn-presets/dist/butterchurnPresetsExtra.min',
     };
   }
 
   static getImagePresetKeys () {
     return {
       presets: imagePresets,
-      chunk: 'butterchurn-presets/lib/butterchurnPresetsImage.min',
+      chunk: 'butterchurn-presets/dist/butterchurnPresetsImage.min',
     };
   }
 
   static getMinimalPresetKeys () {
     return {
       presets: minimalPresets,
-      chunk: 'butterchurn-presets/lib/butterchurnPresetsMinimal.min',
+      chunk: 'butterchurn-presets/dist/butterchurnPresetsMinimal.min',
     };
   }
 
   static getNonMinimalPresetKeys () {
     return {
       presets: nonMinimalPresets,
-      chunk: 'butterchurn-presets/lib/butterchurnPresetsNonMinimal.min',
+      chunk: 'butterchurn-presets/dist/butterchurnPresetsNonMinimal.min',
     };
   }
 
   static getMD1PresetKeys () {
     return {
       presets: MD1Presets,
-      chunk: 'butterchurn-presets/lib/butterchurnPresetsMD1.min',
+      chunk: 'butterchurn-presets/dist/butterchurnPresetsMD1.min',
     };
   }
 }

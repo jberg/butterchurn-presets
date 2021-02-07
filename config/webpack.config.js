@@ -3,7 +3,7 @@ const path = require('path');
 
 const root = path.join(__dirname, '..');
 const nodeRoot = path.join(__dirname, '..', 'node_modules');
-const outputPath = path.join(__dirname, '..', 'lib');
+const outputPath = path.join(__dirname, '..', 'dist');
 
 const config = {
   entry: {
