@@ -15,6 +15,7 @@ const config = {
     nonMinimal: root + '/nonMinimal.js',
     all: root + '/all.js',
     presetPackMeta: root + '/presetPackMeta.js',
+    imageData: root + '/imageData.js',
   },
   output: {
     path: outputPath,

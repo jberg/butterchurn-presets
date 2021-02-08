@@ -13,6 +13,7 @@
     "nonMinimal.js",
     "all.js",
     "presetPackMeta.js",
+    "imageData.js",
     "presets/converted/",
     "dist/base.min.js",
     "dist/extra.min.js",
@@ -21,6 +22,7 @@
     "dist/minimal.min.js",
     "dist/nonMinimal.min.js",
     "dist/presetPackMeta.min.js",
+    "dist/imageData.min.js",
     "presets/converted/"
   ],
   "sideEffects": false,
