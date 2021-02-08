@@ -571,46 +571,61 @@ const MD1Presets = [
   "Zylot - Star Ornament",
 ];
 
-export default class ButterchurnPresetPackMeta {
-  static getBasePresetKeys () {
-    return {
-      presets: basePresets,
-      chunk: 'butterchurn-presets/dist/butterchurnPresetsBase.min',
-    };
-  }
-
-  static getExtraPresetKeys () {
-    return {
-      presets: extraPresets,
-      chunk: 'butterchurn-presets/dist/butterchurnPresetsExtra.min',
-    };
-  }
-
-  static getImagePresetKeys () {
-    return {
-      presets: imagePresets,
-      chunk: 'butterchurn-presets/dist/butterchurnPresetsImage.min',
-    };
-  }
-
-  static getMinimalPresetKeys () {
-    return {
-      presets: minimalPresets,
-      chunk: 'butterchurn-presets/dist/butterchurnPresetsMinimal.min',
-    };
-  }
-
-  static getNonMinimalPresetKeys () {
-    return {
-      presets: nonMinimalPresets,
-      chunk: 'butterchurn-presets/dist/butterchurnPresetsNonMinimal.min',
-    };
-  }
-
-  static getMD1PresetKeys () {
-    return {
-      presets: MD1Presets,
-      chunk: 'butterchurn-presets/dist/butterchurnPresetsMD1.min',
-    };
-  }
+function getBasePresetKeys() {
+  return {
+    presets: basePresets,
+    chunk: "butterchurn-presets/dist/base.min",
+  };
 }
+
+function getExtraPresetKeys() {
+  return {
+    presets: extraPresets,
+    chunk: "butterchurn-presets/dist/extra.min",
+  };
+}
+
+function getImagePresetKeys() {
+  return {
+    presets: imagePresets,
+    chunk: "butterchurn-presets/dist/image.min",
+  };
+}
+
+function getMinimalPresetKeys() {
+  return {
+    presets: minimalPresets,
+    chunk: "butterchurn-presets/dist/minimal.min",
+  };
+}
+
+function getNonMinimalPresetKeys() {
+  return {
+    presets: nonMinimalPresets,
+    chunk: "butterchurn-presets/dist/nonMinimal.min",
+  };
+}
+
+function getMD1PresetKeys() {
+  return {
+    presets: MD1Presets,
+    chunk: "butterchurn-presets/dist/md1.min",
+  };
+}
+
+function getAllPresetKeys() {
+  return {
+    presets: MD1Presets,
+    chunk: "butterchurn-presets/dist/all.min",
+  };
+}
+
+export {
+  getBasePresetKeys,
+  getExtraPresetKeys,
+  getImagePresetKeys,
+  getMinimalPresetKeys,
+  getNonMinimalPresetKeys,
+  getMD1PresetKeys,
+  getAllPresetKeys,
+};
