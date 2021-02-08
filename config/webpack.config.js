@@ -7,14 +7,14 @@ const outputPath = path.join(__dirname, '..', 'dist');
 
 const config = {
   entry: {
-    butterchurnPresetsBase: root + '/base.js',
-    butterchurnPresetsExtra: root + '/extra.js',
-    butterchurnPresetsImage: root + '/image.js',
-    butterchurnPresetsMD1: root + '/md1.js',
-    butterchurnPresetsMinimal: root + '/minimal.js',
-    butterchurnPresetsNonMinimal: root + '/nonMinimal.js',
-    butterchurnPresetsAll: root + '/all.js',
-    butterchurnPresetPackMeta: root + '/presetPackMeta.js',
+    base: root + '/base.js',
+    extra: root + '/extra.js',
+    image: root + '/image.js',
+    md1: root + '/md1.js',
+    minimal: root + '/minimal.js',
+    nonMinimal: root + '/nonMinimal.js',
+    all: root + '/all.js',
+    presetPackMeta: root + '/presetPackMeta.js',
   },
   output: {
     path: outputPath,
