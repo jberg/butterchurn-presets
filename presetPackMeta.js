@@ -615,7 +615,14 @@ function getMD1PresetKeys() {
 
 function getAllPresetKeys() {
   return {
-    presets: MD1Presets,
+    presets: [
+      ...basePresets,
+      ...extraPresets,
+      ...imagePresets,
+      ...minimalPresets,
+      ...nonMinimalPresets,
+      ...MD1Presets,
+    ],
     chunk: "butterchurn-presets/dist/all.min",
   };
 }
