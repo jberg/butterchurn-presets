@@ -20,7 +20,7 @@ const config = {
   output: {
     path: outputPath,
     filename: '[name]',
-    library: '[name]',
+    library: '[name]ButterchurnPresets',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
